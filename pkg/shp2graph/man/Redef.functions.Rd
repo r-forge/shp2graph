@@ -4,7 +4,7 @@
 The function is used in optimization functions \link{PN.amalgamation} and \link{ME.simplification}.
 }
 \usage{
-Redef.functions(v, type=1)
+Redef.functions(v, typ=1)
 }
 \arguments{
  \item{v}{An input vector for the specified function;}

@@ -4,7 +4,7 @@
 This function is to visualize a spatial-enabled \link{graph} object, of which the spatial coordinate for each vertex is defined clearly.
 }
 \usage{
-g.plot<-function(g, labels=NULL,coord=NULL, label.adj=c(1.5,0.5),label.offsets=c(0,0), arrows=0, circles=0.05, pad=NULL, vertex.pch=20, label.cex=1, 
+g.plot(g, labels=NULL,coord=NULL, label.adj=c(1.5,0.5),label.offsets=c(0,0), arrows=0, circles=0.05, pad=NULL, vertex.pch=20, label.cex=1, 
 vertex.cex=1, label.col=1, display.edge.labels=F, edge.label.pos=1/6, edge.label.cex=1, edge.label.offset=0.03,edge.col=1, vertex.col=1, 
 arrowhead.angle=10, arrowhead.length=0.2,edge.lty=1, edge.lwd=0, circles.fg=1, circles.bg=NA, circles.lwd=1, axes=FALSE, ylab="", xlab="",main=NULL)
 }

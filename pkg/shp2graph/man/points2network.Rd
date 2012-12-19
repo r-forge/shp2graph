@@ -4,7 +4,7 @@
 The function establish a mapping relationship between points and nodes in the network, each point will correspond to a specific node.
 }
 \usage{
-points2network(ntdata,pointsxy,mapping.method=1,output="",longlat=F,Detailed=F, ea.prop=NULL)
+points2network(ntdata,pointsxy,mapping.method=1,ELComputed=FALSE,longlat=F,Detailed=F, ea.prop=NULL)
 }
 \arguments{
   \item{ntdata}{a spatial data frame, here only "SpatialLinesDataFrame" is accepted.}
